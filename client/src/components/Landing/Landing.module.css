@@ -1,0 +1,18 @@
+.fondoImg{
+    background-image: url("https://i.pinimg.com/736x/8c/8b/1c/8c8b1c15265fe40a60fc474e216be827.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnLanding{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,164 @@
+.fullDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://w0.peakpx.com/wallpaper/862/989/HD-wallpaper-pirates-map-pirates-map-flag-boat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.form{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.radioDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.nameContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameContainer label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.nameContainer input{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.labelName{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+.textInput{
+    width: 100%;
+    height: 2rem;
+    border: 5px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.radio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selectForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selectForm label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.option{
+    width: 100%;
+    height: 2rem;
+    border: 5px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.btnsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.btnSubmit{
+    background-color: rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnSubmit:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.btnBack{
+    background-color: rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnBack:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.errors{
+    color: red;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.miniCard{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nameCountry{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.btnDelete{
+    background-color: rgb(144, 74, 74);
+    cursor: pointer;
+    border-radius: 5px;
+}

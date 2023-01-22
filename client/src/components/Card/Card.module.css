@@ -1,0 +1,85 @@
+.card{
+    color: transparent;
+    background-color: #FFF7CC;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(41, 40, 40, 0.7);
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.2s ease-in-out;
+    justify-content: center;
+    position:relative;
+    height: auto;
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 0 5px #211C42;
+    font-weight: 800;
+    transition: ease-in-out 0.2s;
+}
+.description{
+    flex: 1;
+    padding: 1rem;
+}
+.name{
+    color: #393831;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+.continent{
+    color: #8C8B86;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.containerFlag{
+    display: flex;
+    position: relative;
+    margin: 15px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: fit-content;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px solid #FFF7CC;
+    border-radius: 10px;
+}
+.img:hover{
+    border: 2px solid #211C42;
+    transition: ease-in-out 0.2s;
+}
+.cardButton{
+    background-color: #211C42;
+    border-radius: 10px;
+    color: #FFF7CC;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+}
+.btnDetails{
+    background-color: #FFF7CC;
+    border: 1px solid #393831;
+    border-radius: 5px;
+    padding-top: 5.5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btnDetails:hover{
+    background-color: #B5A386;
+    color: #fff;
+    padding-top: 10px;
+    border : none;
+    justify-content: center;
+}
